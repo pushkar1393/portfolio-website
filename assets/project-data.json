@@ -1,0 +1,117 @@
+{
+   "projects":[
+      {
+         "id":0,
+         "title":"DocuShare - Documents on the Go",
+         "caption":"A Google Firebase backed IOS application.",
+         "description":"DocuShare aims to solve the issue of sharing documents on the go. It was initially aimed to solve the biggest problem students faced while attending a career fair which was 'carrying lots of documents'. So we created this app where you could store your documents and the app would generate a unique QR for each of your document. You could then simply share the document with someone by letting them scan your QR code through the app. The app has additional features like document locking which wouldn't permit your document being saved by someone else.",
+         "image":"img/swift-firebase.png",
+         "tech":[
+            "Swift 3",
+            "Google Firebase"
+         ],
+         "link":"https://github.com/pushkar1393/DocuShare-ios-firebase-application"
+      },
+      {
+         "id":1,
+         "title":"FilesOnCloud ",
+         "caption":"An AWS based cloudformation and CI/CD project.",
+         "description":"FilesOnCloud was a project developed to implement a continous integration and deployment pipeline on cloud for web applications. The project included a SpringBoot App which allowed users to create profiles, create task-list, store and segregate files. We developed a continous integration/ deployment script using AWS CloudFormation template (for AWS) and Shell scripts(for AWS and GCP) to build, unit test, load/stress test the aplication and then finally deploy it to an EC2 instance, manage data using RDS and store static content on S3.Other services that were implemented included AWS Lambda, DynamoDB, SNS and SES.",
+         "image":"img/aws-boot.png",
+         "tech":[
+            "Spring Boot",
+            "JPA",
+            "Json",
+            "MySQL",
+            "AWS CloudFormation",
+            "AWS(EC2, RDS,S3,CodeDeploy,Lambda)",
+            "TravisCI",
+            "Google Deployment Manager Script for Cloud"
+         ],
+         "link":"https://github.com/pushkar1393/csye6225-fall2017"
+      },
+      {
+         "id":2,
+         "title":"Photobytes - Click, Share, Socialize",
+         "caption":"Spring MVC based social media web application ",
+         "description":"Photobytes is a photo sharing service based social media web application. It provides a user with features like dedicated user dashboard which lets them upload photos, track their photos, followers and following. All profiles are private by default. The app only lets the user's followers view, like and comment on photos visible on the user dashboard (archived photos stay hidden) , it also generates a personalised feed based on the user's following, latest activity etc. The web application is completely secured using Spring security and also handles cross site scripting effeciently.",
+         "image":"img/spring-mysql.png",
+         "tech":[
+            "Spring MVC",
+            "JSP",
+            "Hibernate",
+            "Json",
+            "Ajax",
+            "MySQL",
+            "Velocity"
+         ],
+         "link":"https://github.com/pushkar1393/photobytes-spring-mvc-web-application"
+      },
+      {
+         "id":3,
+         "title":"Big Data Indexing Application",
+         "caption":"A project demonstrating use of Elasticsearch in Big data.",
+         "description":"Big Data Indexing application was developed to delve deeper into and understand how projects handle extensive amounts of data. The project was developed as a simple Spring Boot application which would perform CRUD functionalities on a payload and the data was indexed and serialized to in-memory data store Redis. The application had feature like OAuth based user authentication, web cache validation using Etags, json schema validation. Elastic Search was later exercised on the data stored.",
+         "image":"img/elastic-boot.png",
+         "tech":[
+            "Spring Boot",
+            "Redis",
+            "Json",
+            "Elastic Search"
+         ],
+         "link":""
+      },
+      {
+         "id":4,
+         "title":"Genie",
+         "caption":"An IOS application with CoreData support.",
+         "description":"Genie is an IOS application aimed to provide a clutter free wishlist or a to-do list. This application is developed completely in Swift 3 replete with tap, swipe gestures and completely responsive for different IOS devices starting Iphone 5s. The application provides ample options to uniquely identify a wishlist item and also provides options to sort the item by types and preferences. The application data is serialized using a framework called Coredata. ",
+         "image":"img/swift-core.png",
+         "tech":[
+            "Swift 3",
+            "Core Data"
+         ],
+         "link":"https://github.com/pushkar1393/wishlistApp-ios-swift3-based-application"
+      },
+      {
+         "id":5,
+         "title":"AtoZ- Shopping made easy",
+         "caption":"MEAN stack based Ecommerce website.",
+         "description":"AtoZ is a MEAN stack web application aimed to provide all features on a complete Ecommerce website. It providess a user with a profile where in they can setup their wishlist and add favorites. A personalised feed of products is generated for a user based on his browsing history and the current business requirements. An extremely intuitive cart makes it easy to add, update and remove products. Passport.js local strategy ensures that an authorised user has logged in and the user remains authenticated throughout their browsing session. Payments are secured end to end by stripe.js. A user also has the option to view their past orders and re order them.",
+         "image":"img/mean-stack.png",
+         "tech":[
+            "MongoDB",
+            "Express.js",
+            "Node.js",
+            "Angularjs",
+            "Passport.js",
+            "Stripe.js"
+         ],
+         "link":"https://github.com/pushkar1393/AtoZ-MEAN-stack-ecommerce-website"
+      },
+      {
+         "id":6,
+         "title":"Tsunami Epicenter Detection",
+         "caption":"A Particle Swarm Optimization algorithm based Java project.",
+         "description":"Tsunami Epicenter Detection using Particle Swarm Optimization algorithm is a project based on a computational technique which iteratively improves the candidate solution with regards to some sort of accuracy. The program runs as an animation which simulates the process of tsunami detection by bots who iteratively improve their accuracy and thus the overall solution( in this case location of epicenter) by slowly converging onto the epicenter after starting haphazardly at any location. The bots use the concept of personal best accuracy and global best accuracy to arrive at optimal candiate solution.",
+         "image":"img/java-db4o.png",
+         "tech":[
+            "Java"
+         ],
+         "link":"https://github.com/pushkar1393/tsunami-epicentre-detection-using-Particle-Swarm-Optimization"
+      },
+      {
+         "id":7,
+         "title":"Drug Regulator",
+         "caption":"A Java based desktop application for managing Drug enhancement,distributiont and testing.",
+         "description":"Drug Regulator is a multi factional management application developed for Drug Manufacturing and Enhancement and Testing Organizations, Pharmaceutical Organizations,FDA and lastly Hospital Inventory Management Organizations. It can be used for logging different functions including drug manufacturing, testing, fda testing, fda approvals, mass productions, hospital inventory management, drug compounds procuring etc. The project is based of a design pattern called as Ecosystem model.The different account types that can log information include doctors, nurses, pharmacists, FDA authorised personnel etc. The appplication has support for email based notifications, exhaustive analytics of drug data based of graphs and charts. The complete application data is stored in a memory based object database called db4o.",
+         "image":"img/java-db4o.png",
+         "tech":[
+           "Java",
+           "Swing framework",
+           "Db4O"
+         ],
+         "link":"https://github.com/pushkar1393/drug-regulator-java-swing-application"
+      }
+   ]
+}

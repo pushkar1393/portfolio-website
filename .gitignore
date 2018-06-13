@@ -1,0 +1,14 @@
+ #Ignore scss files
+ scss/
+
+#Ignore node_modules
+node_modules
+
+#Ignore license
+LICENSE
+
+#Ignoring node config files
+/pack*.json
+
+#Ignore gulp build file
+gulpfile.js
