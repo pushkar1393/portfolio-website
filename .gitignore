@@ -1,5 +1,3 @@
- #Ignore scss files
- scss
 
 #Ignore node_modules
 node_modules
@@ -12,3 +10,6 @@ LICENSE
 
 #Ignore gulp build file
 gulpfile.js
+
+#Ignoring scss files
+scss
