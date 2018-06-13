@@ -99,10 +99,18 @@ $(document.body).on('click','.portfolio-item',function(e){
   $("#projectDetailModal").modal("show");
 });
 
+//To clear project modal on close
+$(document.body).on('click','.btn-clear',function(){
+
+  $(".modal-title,.pop-caption,.pop-description,.pop-list,.pop-link").html("");
+});
+
+//To call setupPortfolio on page load
 $(document).ready(function() {
   setUpPortfolio();
 });
 
+//To setup Portfolio section on page load
 function setUpPortfolio(){
   $.ajax({
     dataType: "json",
@@ -128,7 +136,7 @@ function setUpPortfolio(){
   });
 }
 
-
+// To retrieve project from sessionStorage
 function getProjectById(id){
   var projectList = $.parseJSON(sessionStorage.getItem('projects'));
   return projectList[id];
