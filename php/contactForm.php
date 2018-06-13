@@ -17,7 +17,7 @@ $Body .= "<strong>Message: </strong> $message<br/>";
 
 
 
-$headers = 'From: '.$email."\r\n" ;
+$headers = 'From: '.'noreply@pushkarkhedekar.com'."\r\n" ;
 $headers .='Reply-To: '.$email. "\r\n" ;
 $headers .='X-Mailer: PHP/' . phpversion();
 $headers .= "MIME-Version: 1.0\r\n";
