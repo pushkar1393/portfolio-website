@@ -1,5 +1,5 @@
  #Ignore scss files
- scss/
+ scss
 
 #Ignore node_modules
 node_modules
