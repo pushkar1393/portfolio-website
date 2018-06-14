@@ -1,0 +1,123 @@
+{
+  "skills":[
+    {
+      "name":"Languages",
+      "languages":[
+        {
+          "name":"Java",
+          "effeciency":90
+        },
+        {
+          "name":"Javascript",
+          "effeciency":83
+        },
+        {
+          "name":"Python",
+          "effeciency":55
+        },
+        {
+          "name":"C3",
+          "effeciency":70
+        },
+        {
+          "name":"Swift",
+          "effeciency":80
+        },
+        {
+          "name":"SQL",
+          "effeciency":78
+        }
+      ]
+    },
+    {
+      "name":"Web Technologies",
+      "languages":[
+        {
+          "name":"Html 5",
+          "effeciency":93
+        },
+        {
+          "name":"Css 3",
+          "effeciency":91
+        },
+        {
+          "name":"Json",
+          "effeciency":87
+        },
+        {
+          "name":"Xml",
+          "effeciency":71
+        },
+        {
+          "name":"Ajax",
+          "effeciency":84
+        },
+        {
+          "name":"Typescript",
+          "effeciency":68
+        }
+      ]
+    },
+    {
+      "name":"Libraries",
+      "languages":[
+        {
+          "name":"Angular Js/2",
+          "effeciency":76
+        },
+        {
+          "name":"Spring MVC",
+          "effeciency":90
+        },
+        {
+          "name":"Spring Boot",
+          "effeciency":87
+        },
+        {
+          "name":"Hibernate/JPA",
+          "effeciency":88
+        },
+        {
+          "name":"Node/Express.js",
+          "effeciency":81
+        },
+        {
+          "name":"Web Forms",
+          "effeciency":68
+        }
+      ]
+    },
+    {
+      "name":"Frameworks",
+      "languages":[
+        {
+          "name":"Angular Js/2",
+          "effeciency":76
+        },
+        {
+          "name":"Spring MVC",
+          "effeciency":90
+        },
+        {
+          "name":"Spring Boot",
+          "effeciency":87
+        },
+        {
+          "name":"Hibernate/JPA",
+          "effeciency":88
+        },
+        {
+          "name":"Node/Express.js",
+          "effeciency":81
+        },
+        {
+          "name":"Web Forms",
+          "effeciency":68
+        }
+      ]
+    }
+
+
+
+  ]
+}
