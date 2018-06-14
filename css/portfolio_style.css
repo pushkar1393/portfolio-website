@@ -349,6 +349,8 @@ h4 {
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(0px);
+    -moz-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -moz-clip-path: inset(0px);
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
@@ -360,15 +362,19 @@ h4 {
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
+    -moz-transition: -webkit-clip-path 0.25s ease-out;
+    -moz-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
     -webkit-clip-path: inset(2rem);
+    -moz-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
     background-color: rgba(0, 119, 181, 0.9);
     -webkit-clip-path: inset(2rem);
+    -moz-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
 }
