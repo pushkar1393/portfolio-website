@@ -348,7 +348,7 @@ h4 {
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(0px);
-    -moz-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    -moz-transition: -moz-clip-path 0.25s ease-out, background-color 0.7s;
     -moz-clip-path: inset(0px);
     clip-path: inset(0px);
   }
@@ -361,7 +361,7 @@ h4 {
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
-    -moz-transition: -webkit-clip-path 0.25s ease-out;
+    -moz-transition: -moz-clip-path 0.25s ease-out;
     -moz-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
