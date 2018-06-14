@@ -350,6 +350,7 @@ h4 {
     -webkit-clip-path: inset(0px);
     -moz-transition: -moz-clip-path 0.25s ease-out, background-color 0.7s;
     -moz-clip-path: inset(0px);
+    transition: clip-path 0.25s ease-out, background-color 0.7s;
     clip-path: inset(0px);
   }
   .portfolio-item .caption .caption-content {
@@ -363,6 +364,7 @@ h4 {
     -webkit-clip-path: inset(-1px);
     -moz-transition: -moz-clip-path 0.25s ease-out;
     -moz-clip-path: inset(-1px);
+    transition: clip-path 0.25s ease-out;
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
