@@ -126,7 +126,7 @@
           '<p class="mb-0">'+projectList[i].caption+'</p>'+
           '</span>'+
           '</span>'+
-          '<img class="img-fluid" src="'+projectList[i].image+'" alt="">'+
+          '<img class="img-fluid" src="'+projectList[i].image+'" alt="'+projectList[i].title+' - '+projectList[i].caption+'">'+
           '</a>'+
           '</div>';
         }
