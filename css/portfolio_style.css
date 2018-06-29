@@ -90,7 +90,6 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .masthead h1 {
@@ -107,6 +106,7 @@ h6 {
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
+    background-attachment: fixed;
   }
   .masthead h1 {
     font-size: 5.5rem;
