@@ -159,7 +159,8 @@
           markUp +=  '<li><h5>'+ skill.languages[i].name+ '</h5></li>';
           }
           markUp += '</ul>';
-          var  divdrop = '#expand-'+id+' .card-body';
+          var pID = id + 1;
+          var  divdrop = '#expand-'+pID+' .card-body';
           $(divdrop).html(markUp);
 
         }
