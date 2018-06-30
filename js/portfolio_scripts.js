@@ -41,13 +41,13 @@
   });
 
   // To implement animated charts
-    $('.chart').easyPieChart({
-      barColor:'#fff',
-      trackColor:'rgba(255,255,255,0.2)',
-      lineCap: 'butt',
-      lineWidth:'6',
-      size: '120'
-    });
+  $('.chart').easyPieChart({
+    barColor:'#fff',
+    trackColor:'rgba(255,255,255,0.2)',
+    lineCap: 'butt',
+    lineWidth:'6',
+    size: '120'
+  });
 
   // form submission event
   $("#contactMe").submit(function(e){
@@ -107,6 +107,7 @@
   //To call setupPortfolio on page load
   $(document).ready(function() {
     setUpPortfolio();
+    setUpMobileSkills();
   });
 
   //To setup Portfolio section on page load
@@ -139,6 +140,31 @@
   function getProjectById(id){
     var projectList = $.parseJSON(sessionStorage.getItem('projects'));
     return projectList[id];
+  }
+
+
+// To retrieve skills for mobile display
+  function setUpMobileSkills(){
+    $.ajax({
+      dataType: "json",
+      url: "/assets/skills.json",
+      success: function(data){
+        sessionStorage.setItem('skills',JSON.stringify(data.skills));
+        var skills = $.parseJSON(sessionStorage.getItem('skills'));
+        for (var id=0; id < skills.length; id++){
+
+          var skill =skills[id];
+          var markUp ='<ul>';
+          for( var i =0; i < skill.languages.length; i++){
+          markUp +=  '<li><h5>'+ skill.languages[i].name+ '</h5></li>';
+          }
+          markUp += '</ul>';
+          var  divdrop = '#expand-'+id+' .card-body';
+          $(divdrop).html(markUp);
+
+        }
+      }
+    });
   }
 
 })(jQuery); // End of use strict
